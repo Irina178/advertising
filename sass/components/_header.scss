@@ -1,0 +1,19 @@
+.header {
+   background-color: white;
+ 
+}
+ 
+.nav {
+  
+display: flex;
+justify-content: space-between;
+padding: 15px 0px 15px;
+
+		&__logo {
+margin-left: 15px;
+		}
+
+		&__menu {
+         margin-right: 15px;
+		}
+}

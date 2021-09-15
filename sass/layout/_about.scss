@@ -1,0 +1,38 @@
+// .about {
+// }
+// .container {
+// }
+.work {
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.architecture {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 35px 17px;
+  border-bottom: 1px solid $border;
+  &__img {
+    margin: 26px 0px 15px;
+  }
+
+  &__heading {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: $black;
+    padding-bottom: 15px;
+
+  }
+
+    &__text {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: $dark;
+      margin-left: 35px;
+       
+     }
+}
