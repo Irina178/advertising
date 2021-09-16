@@ -1,12 +1,12 @@
-// .design {
-// }
-// .container {
-// }
+.design {
+  background-color: $blue;
+}
+
 .author {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: $blue;
+
   padding-top: 29px;
   padding-bottom: 45px;
 }
@@ -28,7 +28,7 @@
     font-weight: 500;
     line-height: 1.8;
     color: $white;
-   
+    margin-bottom: 30px;
   }
 }
 .registration {
@@ -94,5 +94,3 @@
     padding-right: 31px;
   }
 }
-
-

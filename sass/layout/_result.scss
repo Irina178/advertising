@@ -1,9 +1,9 @@
-// .result {
-// }
-// .container {
-// }
-.preview {
+.result {
   background-color: $white;
+}
+
+.preview {
+  
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -14,10 +14,11 @@
     line-height: 1.2;
     color:$black;
     margin-left: 30px;
+   margin-top: 40px;
   }
 
   &__img {
     margin: 20px 0px 70px;
-    border: 1px solid red;
+    
   }
 }
