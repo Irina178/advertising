@@ -1,0 +1,37 @@
+.manufacturing {
+  background-color: $white;
+}
+
+.rofessional {
+  padding: 20px 18px;
+
+  &__heading {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+     color: $dark;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: $black;
+    margin-bottom: 30px;
+  }
+}
+.rofessional--color {
+  color: $blue;
+}
+.type {
+  margin-bottom: 30px;
+}
+.tupe {
+  &__list {
+    color: $dark;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+}

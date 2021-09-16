@@ -828,4 +828,41 @@ img {
 
 .reservation {
   padding: 30px 18px 0px;
+}
+
+.manufacturing {
+  background-color: #FAFCFF;
+}
+
+.rofessional {
+  padding: 20px 18px;
+}
+.rofessional__heading {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #555555;
+  margin-bottom: 10px;
+}
+.rofessional__text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.rofessional--color {
+  color: #2586ee;
+}
+
+.type {
+  margin-bottom: 30px;
+}
+
+.tupe__list {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */
