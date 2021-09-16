@@ -1,20 +1,23 @@
 .srvices {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $white;
 }
 
 .title {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   &__heading {
+    padding-top: 29px;
     font-size: 28px;
     font-weight: 500;
     line-height: 1.2;
     color: $black;
+    padding-left: 25px;
   }
 
   &__text {
@@ -22,22 +25,23 @@
     font-weight: 400;
     line-height: 1.2;
     color: $dark;
+    padding: 15px 28px 23px;
   }
 }
 .benefits {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .features {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: 1px solid $border;
   &__img {
-     padding-top: 35px;
+    padding-top: 35px;
   }
 
   &__heading {

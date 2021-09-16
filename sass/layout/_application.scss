@@ -1,17 +1,18 @@
-// .main {
-// }
-// .container {
-// }
+
 .advertising {
   background-color: #2586ee;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .application {
   background-color: $white;
-  border: 5px solid #2586ee;
+  
   padding-top: 32px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   &__heading {
     font-size: 28px;
@@ -28,52 +29,5 @@
     margin-left: 36px;
     margin-bottom: 24px;
     margin-top: 6px;
-  }
-}
-.input {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  &__name {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: $dark;
-    border: 1px solid #eeeeee;
-    padding: 23px 75px 23px 23px;
-    margin-bottom: 18px;
-  }
-
-  &__tel {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: $dark;
-    border: 3px solid #eeeeee;
-    padding: 23px 75px 23px 23px;
-    margin-bottom: 18px;
-  }
-}
-.button {
-  background-color: #2586ee;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 47px;
-  border: 5px solid #2586ee;
-  
-
-  &__consultation {
-    padding: 20px 48px;
-    color: $white;
-    background-color: $yelow;
-    border: 2px solid $yelow;
-    transition: 0.2s;
-  }
-  &__consultation:hover {
-    background-color: $white;
-    color: #2586ee;
-    border: 2px solid #2586ee;
   }
 }

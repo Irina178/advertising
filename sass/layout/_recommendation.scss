@@ -1,0 +1,65 @@
+.recommendation {
+  background-color: $white;
+}
+
+.reaction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid $border;
+  padding: 20px 18px 43px 20px;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+  
+  margin-bottom: 43px;
+
+  &__number {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: $blue;
+  }
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 44px;
+
+  &__name {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: $black;
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: $dark;
+  }
+}
+.screen {
+  &__img {
+    margin: 10px 124px 8px;
+  }
+}
+.telegram {
+  display: flex;
+  justify-content: center;
+
+  &__img {
+     margin-right: 7px;
+  }
+
+  &__link {
+    color: #2586ee;
+    font-size: 13px;
+    line-height: 1.1;
+    font-weight: 500;
+  }
+}

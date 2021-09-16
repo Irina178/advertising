@@ -1,0 +1,98 @@
+// .design {
+// }
+// .container {
+// }
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: $blue;
+  padding-top: 29px;
+  padding-bottom: 45px;
+}
+.modal {
+  &__heading {
+    margin-top: 35px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: $white;
+  }
+
+  &__text {
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+    color: $white;
+   
+  }
+}
+.registration {
+  background-color: #fafcff;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 37px;
+  border: 5px solid #2586ee;
+
+  &__heading {
+    margin-top: 29px;
+    margin-bottom: 29px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: $black;
+  }
+
+  &__color {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: $blue;
+  }
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__name {
+    font-size: 15px;
+    line-height: 0.8;
+    font-weight: 500;
+    color: $dark;
+    padding: 23px 85px 23px 23px;
+    margin-bottom: 18px;
+    border: 1px solid #eeeeee;
+  }
+
+  &__tel {
+    font-size: 15px;
+    line-height: 0.8;
+    font-weight: 500;
+    color: $dark;
+    padding: 23px 85px 23px 23px;
+    margin-bottom: 18px;
+    border: 1px solid #eeeeee;
+  }
+}
+.button {
+  display: flex;
+  justify-content: center;
+
+  &__consultation {
+    font-size: 16px;
+    line-height: 1.3;
+    color: $white;
+    padding: 20px;
+    background-color: $yelow;
+    border: 1px solid $yelow;
+    padding-left: 30px;
+    padding-right: 31px;
+  }
+}
+
+

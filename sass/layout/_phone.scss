@@ -1,0 +1,48 @@
+.phone {
+  background-color: $blue;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__heading {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: $white;
+    margin-left: 9px;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: $white;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+}
+.payment {
+   margin-bottom: 46px;
+  
+   &__btn{
+      padding: 20px 60px;
+      background-color: $yelow;
+      color: $white;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.2;
+      border: 1px solid $yelow;
+   }
+}
+.picture {
+  &__img {
+  }
+}
+.reservation {
+  padding: 30px 18px 0px;
+}
+ 
