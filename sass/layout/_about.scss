@@ -1,9 +1,8 @@
 .about {
   background-color: $white;
 }
- 
+
 .work {
-  
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -34,3 +33,38 @@
     margin-left: 35px;
   }
 }
+// @media screen and (min-width: 702px) and (max-width: 1200px) {
+//   .about {
+//     background-color: $white;
+//   }
+
+//   .work {
+//     display: flex;
+//     flex-direction: row;
+//   }
+//   .architecture {
+//     display: flex;
+//     justify-content: start;
+//     padding: 35px 17px;
+//     border-bottom: 1px solid $border;
+//     &__img {
+//       margin: 26px 0px 15px;
+//     }
+
+//     &__heading {
+//       font-size: 18px;
+//       font-weight: 500;
+//       line-height: 1.2;
+//       color: $black;
+//       padding-bottom: 15px;
+//     }
+
+//     &__text {
+//       font-size: 15px;
+//       font-weight: 500;
+//       line-height: 1.2;
+//       color: $dark;
+//       margin-left: 35px;
+//     }
+//   }
+// }

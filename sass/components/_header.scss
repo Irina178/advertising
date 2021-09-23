@@ -1,19 +1,68 @@
 .header {
-   background-color: white;
- 
+  background-color: white;
 }
- 
+
 .nav {
-  
-display: flex;
-justify-content: space-between;
-padding: 15px 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px 15px;
 
-		&__logo {
-margin-left: 15px;
-		}
+  &__logo {
+    margin-left: 15px;
+  }
 
-		&__menu {
-         margin-right: 15px;
-		}
+  &__menu {
+    margin-right: 15px;
+  }
 }
+.position {
+  display: none;
+}
+
+// @media screen and (min-width: 702px) {
+//   .header {
+//     background-color: white;
+//   }
+
+//   .nav {
+//     display: flex;
+//     justify-content: space-between;
+//     padding: 15px 0px 15px;
+
+//     &__logo {
+//       margin-left: 60px;
+//     }
+
+//     &__menu {
+//       margin-right: 15px;
+//     }
+//     .comunication1 {
+//       display: flex;
+
+//       &__icon {
+//         width: 10px;
+//         height: 18px;
+//       }
+
+//       &__tel {
+//         margin: 0px 0px 4px 9px;
+//         font-size: 18px;
+//         font-weight: 500;
+//         line-height: 1.2;
+//         color: $black;
+//       }
+//     }
+//     .mail {
+//       &__link {
+//         font-size: 14px;
+//         font-weight: 500;
+//         line-height: 1.2;
+//         color: $blue;
+//       }
+//     }
+//   }
+//   .position {
+//     display: flex;
+//     flex-direction: column;
+//   }
+// }

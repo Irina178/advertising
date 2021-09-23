@@ -20,15 +20,61 @@
     font-weight: 500;
     line-height: 1.2;
     color: $white;
-    margin-left: 25px;
+    margin-left: 10px;
     margin-top: 5px;
     margin-bottom: 30px;
   }
 }
 .payment {
-   margin-bottom: 46px;
-  
-   &__btn{
+  margin-bottom: 46px;
+
+  &__btn {
+    padding: 20px 60px;
+    background-color: $yelow;
+    color: $white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    border: 1px solid $yelow;
+  }
+}
+.reservation {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 18px 0px;
+}
+
+ @media screen and (min-width: 702px)  {
+  .phone {
+    display: flex;
+    background-color: $blue;
+  }
+ 
+  .order {
+    display: flex;
+    justify-content: space-between;
+    &__heading {
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: $white;
+      margin: 65px 85px 25px 0px;
+      padding-left: 0px;
+    }
+
+    &__text {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: $white;
+      margin-left: 10px;
+      margin-top: 5px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .payment {
+    &__btn {
       padding: 20px 60px;
       background-color: $yelow;
       color: $white;
@@ -36,13 +82,10 @@
       font-weight: 700;
       line-height: 1.2;
       border: 1px solid $yelow;
-   }
-}
-.picture {
-  &__img {
+    }
+  }
+
+  .picture {
+    padding-top: 37px;
   }
 }
-.reservation {
-  padding: 30px 18px 0px;
-}
- 

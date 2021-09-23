@@ -33,3 +33,39 @@
     margin-top: 6px;
   }
 }
+// @media screen and (min-width: 702px) and (max-width: 1200px){
+//   .main{
+//     background-color: #2586ee;
+//   }
+//   .advertising {
+//         position: relative;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//   }
+//   .application {
+//     background-color: $white;
+    
+//     padding-top: 32px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     &__heading {
+//       font-size: 28px;
+//       font-weight: 500;
+//       line-height: 1.2;
+//       color: $black;
+//     }
+  
+//     &__text {
+//       font-size: 15px;
+//       font-weight: 500;
+//       line-height: 1.2;
+//       color: $dark;
+//       margin-left: 36px;
+//       margin-bottom: 24px;
+//       margin-top: 6px;
+//     }
+//   }
+// }

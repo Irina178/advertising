@@ -3,7 +3,6 @@
 }
 
 .preview {
-  
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -12,13 +11,37 @@
     font-size: 28px;
     font-weight: 500;
     line-height: 1.2;
-    color:$black;
+    color: $black;
     margin-left: 30px;
-   margin-top: 40px;
+    margin-top: 40px;
   }
 
   &__img {
     margin: 20px 0px 70px;
-    
   }
 }
+// @media screen and (min-width: 702px) and (max-width: 1200px) {
+//   .result {
+//     background-color: $white;
+//   }
+
+//   .preview {
+//     display: flex;
+//     justify-content: center;
+//     flex-direction: column;
+
+//     &__heading {
+//       font-size: 28px;
+//       font-weight: 500;
+//       line-height: 1.2;
+//       color: $black;
+//       margin-left: 30px;
+//       margin-top: 40px;
+//       margin-bottom: 12px;
+//     }
+
+//     &__img {
+//       margin: 20px 0px 70px;
+//     }
+//   }
+// }

@@ -5,16 +5,32 @@
 .response {
   display: flex;
   justify-content: center;
-  
 }
-  .response__heading {
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #333;
-    margin-left: 0px;
-    padding-bottom: 20px;
-    padding-top: 70px;
-    
-  }
+.response__heading {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #333;
+  margin-left: 0px;
+  padding-bottom: 20px;
+  padding-top: 70px;
+}
 
+// @media screen and (min-width: 702px) and (max-width: 1200px) {
+//   .reviews {
+//     background-color: $white;
+//   }
+
+//   .response {
+//     display: flex;
+//     justify-content: flex-start;
+//     &__heading {
+//       font-size: 28px;
+//       font-weight: 500;
+//       line-height: 1.2;
+//       color: #333;
+//       margin-left: 0px;
+//       padding: 78px 0px 12px 32px;
+//     }
+//   }
+// }
